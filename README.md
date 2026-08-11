@@ -27,7 +27,7 @@ OS: Windows 10 pro x64
 Pronomes: Ele/Dele
 Local: Brasil, SP
 Learning: HTML, CSS 
-Languages: Python, Lua, Java, Php, C#, C++, Rust, JavaScript.
+Languages: HTML, CSS, JS, Python, Node.js
 Hobbies: Criar projetos, programação, sistemas de jogos.
 ```
 
