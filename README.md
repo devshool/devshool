@@ -4,7 +4,7 @@
 <br>
 <a href="https://github.com/notchdev">
     <a href="#"><img width="100%" src="https://images.app.goo.gl/hFg378hTsmPHDi2z8/>
-    <a href="#"><img width="100%" src="https://readme-typing-svg.herokuapp.com?font=SUSE&size=30&pause=2000&color=FFFFFF&center=true&vCenter=true&width=1000&height=60&lines=Ol%C3%A1%2C+tudo+bem%3F+Me+chamo+notchdev!;Seja+bem-vindo(a)+ao+meu+perfil."/>
+    <a href="#"><img width="100%" src="https://readme-typing-svg.herokuapp.com?font=SUSE&size=30&pause=2000&color=FFFFFF&center=true&vCenter=true&width=1000&height=60&lines=Ol%C3%A1%2C+tudo+bem%3F+Me+chamo+nsyDEv!;Seja+bem-vindo(a)+ao+meu+perfil."/>
 </a>
 <br>
 <p align="center">
@@ -23,7 +23,7 @@
 ```lua
 devshool@GitHub
 ▔▔▔▔▔▔▔▔▔
-OS: Windows 10 x64
+OS: Windows 10 pro x64
 Shell: Windows Terminal
 Pronouns: Ele/Dele
 Location: Brasil, SP
