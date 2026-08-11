@@ -14,7 +14,7 @@
 <br><br><br>
 
 ```zsh
-> Notchdev
+> NsyDEv
 ```
 
 <a href="#"><img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc_EtxeDWTiLDq-tSDsYZfhd5ON2eNngi1g&s" width="230"/> 
