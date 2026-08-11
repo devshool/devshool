@@ -17,7 +17,7 @@
 > NsyDEv
 ```
 
-<a href="#"><img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsc_EtxeDWTiLDq-tSDsYZfhd5ON2eNngi1g&s" width="230"/> 
+<a href="#"><img align="left" src="https://media.discordapp.net/attachments/1530347200587104366/1533692807699763391/IMG_6636.png?ex=6a7c9efb&is=6a7b4d7b&hm=43043ed641d81dd1d6a461ca46e69eeff1f36d80610f5e902f7dfd6f050b1123&=&format=webp&quality=lossless" width="230"/> 
 
 
 ```lua
