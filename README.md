@@ -21,15 +21,14 @@
 
 
 ```lua
-devshool@GitHub
+NsyDEv@GitHub
 ▔▔▔▔▔▔▔▔▔
 OS: Windows 10 pro x64
-Shell: Windows Terminal
-Pronouns: Ele/Dele
-Location: Brasil, SP
-Learning: HTML, CSS
+Pronomes: Ele/Dele
+Local: Brasil, SP
+Learning: HTML, CSS 
 Languages: Python, Lua, Java, Php, C#, C++, Rust, JavaScript.
-Hobbies: Cheating in Games, Sleep, Programming, video editing
+Hobbies: Criar projetos, programação, sistemas de jogos.
 ```
 
 <br><br>
