@@ -13,7 +13,7 @@
 <br>
 
 <img
-  src="./assets/about.gif"
+  src="./assets/about.svg"
   width="100%"
   alt="Sobre mim"
 />
