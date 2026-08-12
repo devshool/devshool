@@ -29,7 +29,7 @@
 <!-- ========================================== -->
 
 <img
-  src="./assets/about.svg"
+  src="./assets/about.gif"
   width="100%"
   alt="Sobre mim"
 />
