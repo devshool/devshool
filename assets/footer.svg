@@ -1,0 +1,129 @@
+<svg width="1200" height="180"
+viewBox="0 0 1200 180"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="line">
+<stop offset="0%" stop-color="#ff2020" stop-opacity="0"/>
+<stop offset="50%" stop-color="#ff2020"/>
+<stop offset="100%" stop-color="#ff2020" stop-opacity="0"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- PAINEL -->
+
+<path
+d="
+M240 20
+H960
+L1000 60
+V115
+L960 150
+H240
+L200 115
+V60
+Z"
+fill="#000"
+fill-opacity=".08"
+stroke="#ff2020"
+stroke-width="1.5"/>
+
+<!-- SETAS -->
+
+<text
+x="250"
+y="92"
+font-family="Consolas"
+font-size="28"
+fill="#ff2020">
+
+&gt;&gt;&gt;
+
+<animate
+attributeName="opacity"
+values=".2;1;.2"
+dur="2s"
+repeatCount="indefinite"/>
+
+</text>
+
+<text
+x="950"
+y="92"
+text-anchor="end"
+font-family="Consolas"
+font-size="28"
+fill="#ff2020">
+
+&lt;&lt;&lt;
+
+<animate
+attributeName="opacity"
+values="1;.2;1"
+dur="2s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- FRASE -->
+
+<text
+x="600"
+y="75"
+text-anchor="middle"
+font-family="Consolas, monospace"
+font-size="23"
+fill="#ffffff">
+
+transformando ideias em código.
+
+</text>
+
+<text
+x="600"
+y="110"
+text-anchor="middle"
+font-family="Consolas, monospace"
+font-size="16"
+letter-spacing="4"
+fill="#999999">
+
+um projeto de cada vez.
+
+</text>
+
+<!-- LINHA -->
+
+<rect
+x="330"
+y="160"
+width="540"
+height="1"
+fill="url(#line)"
+/>
+
+<!-- COPYRIGHT -->
+
+<text
+x="600"
+y="175"
+text-anchor="middle"
+font-family="Arial"
+font-size="12"
+fill="#777777">
+
+© NsyDeV
+
+</text>
+
+</svg>
