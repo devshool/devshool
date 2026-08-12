@@ -1,0 +1,287 @@
+<svg
+    width="1200"
+    height="520"
+    viewBox="0 0 1200 520"
+    xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#030303"/>
+        <stop offset="50%" stop-color="#080303"/>
+        <stop offset="100%" stop-color="#020202"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+        <stop offset="0%" stop-color="#ff2020" stop-opacity=".35"/>
+        <stop offset="100%" stop-color="#ff0000" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="redLine">
+        <stop offset="0%" stop-color="#ff2020" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#ff2020"/>
+        <stop offset="100%" stop-color="#ff2020" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="45"/>
+    </filter>
+
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect
+    width="1200"
+    height="520"
+    rx="25"
+    fill="url(#bg)"
+/>
+
+<!-- GLOW ESQUERDO -->
+
+<circle
+    cx="180"
+    cy="250"
+    r="240"
+    fill="url(#glow)"
+    filter="url(#blur)">
+
+    <animate
+        attributeName="cx"
+        values="160;250;160"
+        dur="9s"
+        repeatCount="indefinite"/>
+
+</circle>
+
+<!-- GLOW DIREITO -->
+
+<circle
+    cx="1050"
+    cy="250"
+    r="220"
+    fill="url(#glow)"
+    opacity=".45"
+    filter="url(#blur)">
+
+    <animate
+        attributeName="cx"
+        values="1050;930;1050"
+        dur="11s"
+        repeatCount="indefinite"/>
+
+</circle>
+
+<!-- TÍTULO -->
+
+<text
+    x="75"
+    y="85"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="700"
+    font-size="34">
+
+    SOBRE MIM
+
+</text>
+
+<!-- LINHA DO TÍTULO -->
+
+<rect
+    x="75"
+    y="105"
+    width="190"
+    height="2"
+    fill="#ff2020">
+
+    <animate
+        attributeName="width"
+        values="60;190;60"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+</rect>
+
+<!-- NOME -->
+
+<text
+    x="75"
+    y="180"
+    fill="#ff3030"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    letter-spacing="5">
+
+    NSYDEV@GITHUB
+
+</text>
+
+<!-- COLUNA ESQUERDA -->
+
+<text
+    x="75"
+    y="230"
+    font-family="Consolas, monospace"
+    font-size="19">
+
+    <tspan fill="#666666">OS</tspan>
+    <tspan fill="#ffffff">  Windows 10 Pro x64</tspan>
+
+</text>
+
+<text
+    x="75"
+    y="270"
+    font-family="Consolas, monospace"
+    font-size="19">
+
+    <tspan fill="#666666">PRONOMES</tspan>
+    <tspan fill="#ffffff">  Ele/Dele</tspan>
+
+</text>
+
+<text
+    x="75"
+    y="310"
+    font-family="Consolas, monospace"
+    font-size="19">
+
+    <tspan fill="#666666">LOCAL</tspan>
+    <tspan fill="#ffffff">  Brasil, SP</tspan>
+
+</text>
+
+<text
+    x="75"
+    y="350"
+    font-family="Consolas, monospace"
+    font-size="19">
+
+    <tspan fill="#666666">LEARNING</tspan>
+    <tspan fill="#ffffff">  HTML • CSS</tspan>
+
+</text>
+
+<!-- DIVISÓRIA -->
+
+<line
+    x1="570"
+    y1="175"
+    x2="570"
+    y2="405"
+    stroke="#ff2020"
+    stroke-opacity=".15"
+/>
+
+<!-- LANGUAGES -->
+
+<text
+    x="640"
+    y="205"
+    fill="#666666"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    letter-spacing="4">
+
+    LANGUAGES
+
+</text>
+
+<text
+    x="640"
+    y="255"
+    fill="#ffffff"
+    font-family="Consolas, monospace"
+    font-size="19">
+
+    HTML     CSS     JavaScript
+
+</text>
+
+<text
+    x="640"
+    y="295"
+    fill="#ffffff"
+    font-family="Consolas, monospace"
+    font-size="19">
+
+    Python     Node.js     React
+
+</text>
+
+<!-- INTERESTS -->
+
+<text
+    x="640"
+    y="355"
+    fill="#666666"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    letter-spacing="4">
+
+    INTERESTS
+
+</text>
+
+<text
+    x="640"
+    y="400"
+    fill="#ffffff"
+    font-family="Consolas, monospace"
+    font-size="18">
+
+    projetos • programação • sistemas de jogos
+
+</text>
+
+<!-- PARTÍCULAS -->
+
+<g fill="#ff3030">
+
+    <circle cx="100" cy="500" r="1.3">
+        <animate attributeName="cy" values="520;100" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.8;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="350" cy="510" r="1">
+        <animate attributeName="cy" values="520;50" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.7;0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="850" cy="510" r="1.5">
+        <animate attributeName="cy" values="520;80" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.8;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1080" cy="500" r="1">
+        <animate attributeName="cy" values="520;70" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;.8;0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+</g>
+
+<!-- LINHA INFERIOR -->
+
+<rect
+    x="75"
+    y="470"
+    width="1050"
+    height="1"
+    fill="url(#redLine)"
+/>
+
+<text
+    x="75"
+    y="497"
+    fill="#444444"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    letter-spacing="3">
+
+    ALWAYS BUILDING SOMETHING NEW
+
+</text>
+
+</svg>
