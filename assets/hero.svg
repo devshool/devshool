@@ -40,12 +40,6 @@
 
 <!-- FUNDO -->
 
-<rect
-    width="1200"
-    height="500"
-    rx="25"
-    fill="url(#bg)"
-/>
 
 <!-- GLOW CENTRAL -->
 
